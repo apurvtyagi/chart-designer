@@ -13,7 +13,9 @@ Ext.define('chartV2.view.main.Main', {
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
         'Ext.layout.container.HBox',
-        'chartV2.view.main.Panel1'
+        'chartV2.view.main.Panel1',
+        'chartV2.view.main.graphPanel',
+        'chartV2.view.main.rowlist'
     ],
 
     controller: 'main',
@@ -52,7 +54,7 @@ Ext.define('chartV2.view.main.Main', {
         margin: '0 10 0 10',
         items:[
             {
-                
+                xtype: 'graphPanel'
             }
         ]
     }]

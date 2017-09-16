@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'chartV2' );
-$image-search-path: '/home/buzzyears/projects/chart-v2/build/development/chartV2/classic/resources';
+$image-search-path: '/home/manudatta/charts/chart-designer/chart-v2/build/development/chartV2/classic/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
@@ -886,6 +886,8 @@ $include-chartv2-view-main-maincontroller: dynamic(true);;
 $include-chartv2-view-main-mainmodel: dynamic(true);;
 $include-chartv2-view-main-panel1: dynamic(true);;
 $include-chartv2-view-main-panel2: dynamic(true);;
+$include-chartv2-view-main-graphpanel: dynamic(true);;
+$include-chartv2-view-main-rowlist: dynamic(true);;
 $output-paths: ("path": "../../classic/resources", "shared": "../../resources");
 
 /* ======================== ETC ======================== */

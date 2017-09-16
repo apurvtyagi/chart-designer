@@ -1,1 +1,1 @@
-cache_path = '/home/buzzyears/projects/chart-v2/build/.sass-cache'
+cache_path = '/home/manudatta/charts/chart-designer/chart-v2/build/.sass-cache'
