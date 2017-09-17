@@ -15,10 +15,12 @@ Ext.define('chartV2.view.main.Main', {
         'Ext.layout.container.HBox',
         'chartV2.view.main.Panel1',
         'chartV2.view.main.graphPanel',
-        'chartV2.view.main.rowlist'
+        'chartV2.view.main.rowlist',
+        'chartV2.store.Files',
+        'chartV2.view.drag.Constraint',
     ],
 
-    controller: 'main',
+    controllers: ['main'],
     viewModel: 'main',
 
 
@@ -42,7 +44,7 @@ Ext.define('chartV2.view.main.Main', {
         height:500,
         margin: '0 10 0 0',
         items:[{
-             xtype:'mainpanel1'   
+             xtype:'basic-trees'   
         }]
     }, {
         border:false,
