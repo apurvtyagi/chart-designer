@@ -5,6 +5,7 @@ While you can remove some files and folders that this application does not use,
 be sure to read below before deciding what can be deleted and what needs to be
 kept in source control.
 
+
 The following files are all needed to build and load the application.
 
  - `"app.json"` - The application descriptor which controls how the application is
